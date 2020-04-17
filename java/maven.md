@@ -9,5 +9,5 @@ Some usefull command
 ### Execute one specific test in maven 
 
 ```
-mvn test -Dtest=${TEST_CLASS_TO_EXECUTE}
+mvn test -Dtest=${TEST_CLASS_TO_EXECUTE}[#${METHOD_NAME}]
 ```
